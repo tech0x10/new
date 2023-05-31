@@ -1,0 +1,55 @@
+
+body {
+    background-color: rgb(249, 249, 249);
+    clear: both;
+  }
+  
+  .container {
+   
+    max-height: 100%;
+  }
+  
+  .card {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .container {
+      max-width: 800px;
+  }
+  
+  .custom-border-right {
+      border-right: 2px solid rgb(166, 166, 166);
+  }
+  
+  .btn {
+      margin-left: 10px;
+  }
+  
+  .iti {
+      display: block;
+  }
+  label{
+      font-weight: 500;
+  }
+  
+  @media(max-width:1000px){
+      .col-5{
+          order: 1;
+          width: 100%;
+          text-align: center;
+          border-bottom: 1px solid rgba(166,166,166);
+        border-right: 0px;
+        padding-bottom: 2rem;
+
+      }
+      .col-7{
+          order: 2;
+          width: 100%;
+         margin: 0 auto;
+         max-height: 100vh;
+         margin-top: 2rem;
+      }
+      .container{
+          max-height: 100vh;
+      }
+  }
